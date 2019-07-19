@@ -1,0 +1,20 @@
+$font-size: 20px;
+$dim: 4 * $font-size;
+
+.app {
+  padding: 50px;
+
+  .row {
+    display: flex;
+
+    .cell {
+      font-size: $font-size;
+      width: $dim;
+      height: $dim;
+      line-height: $dim;
+      text-align: center;
+      border: 1px solid black;
+      margin: 5px;
+    }
+  } 
+}
